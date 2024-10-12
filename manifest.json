@@ -1,0 +1,85 @@
+{
+  "@context" : "http://schema.org",
+  "id": "/index.html",
+  "start_url": "index.html",
+  "@type" : "SoftwareApplication",
+  "name" : "YAPE BOLIVIA BILLETERA MÓVIL ",
+  "short_name":"YAPE BO",
+  "description": "Cuenta digital creada para los bolivianos que necesiten más que una cuenta de ahorros. Respaldada por el BCP. Servicio a través de una aplicación (app)",
+  "image" : "assets/img/Logo_Bolivia_3.svg",
+  "theme_color": "#742384",
+  "background_color": "#2c2044",
+  "orientation": "portrait",
+  "display": "standalone",
+  "author" : "Banco de Crédito de Bolivia S.A.",
+  "publisher" : {
+    "@type" : "Organization",
+    "name" : "Yape"
+  },
+  "downloadUrl" : [ "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web", "https://apps.apple.com/es/app/soli-pagos-bcp/id1135987447" ],
+  "screenshot" : "https://www.yape.com.bo/assets/img/datos.png",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://play.google.com/store/apps/details?id=com.bcp.bo.wallet&referrer=utm_source%3Dp%25C3%25A1gina_web%26utm_medium%3Dp%25C3%25A1gina_web%26utm_term%3Dp%25C3%25A1gina_web%26utm_content%3Dp%25C3%25A1gina_web%26utm_campaign%3Dp%25C3%25A1gina_web",
+    "price":"0",
+    "priceCurrency":"BS"
+  },
+  "applicationCategory":"Finance",
+  "operatingSystem": ["Android","iOS"],
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Bruno Poehlmann"
+    },
+    "reviewBody": "Bruno buenas noches Agradecemos tu valoración y nos sentimos felices de que la app sea útil para ti. Disfruta de la libertad digital que Yape te brinda 😎"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "ratingCount": "646"
+  },
+  "icons": [
+    {
+      "src": "assets/img/yape-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "assets/img/yape-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/img/yape-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "assets/img/yape-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+
+    {
+      "src": "assets/img/yape-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/img/yape-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "assets/img/yape-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
